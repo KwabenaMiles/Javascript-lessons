@@ -1,0 +1,1 @@
+// String Methods = allow you to manupilate and work with text(Strings)
