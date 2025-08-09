@@ -20,11 +20,11 @@ let b = 2;
 // -------------- Example 2 ---------
 //We Can Swap Two Element in an Array
 
-// const colors = ["red", "green", "black", "yellow", "purple", "grey"];
+const colors = ["red", "green", "black", "yellow", "purple", "grey"];
 
-// [colors[0], colors[3]] = [colors[3], colors[0]];
+[colors[0], colors[3]] = [colors[3], colors[0]];
 
-// console.log(colors);
+console.log(colors);
 
 
 
@@ -32,12 +32,12 @@ let b = 2;
 //We Can Assign Array Element to Variables
 // You combine Array Destructuring with Rest Parameters
 
-// const [firstColor, secondColor, thirdColor, ...extraColors]  = colors;
+const [firstColor, secondColor, thirdColor, ...extraColors]  = colors;
 
-// console.log(firstColor);
-// console.log(secondColor);
-// console.log(thirdColor);
-// console.log(extraColors);
+console.log(firstColor);
+console.log(secondColor);
+console.log(thirdColor);
+console.log(extraColors);
 
 
 // -------------- Example 4 ---------
@@ -59,10 +59,10 @@ const person2 = {
 }
 
 const {firstName, lastName, age, job = "unemployed"} = person2;
-// console.log(firstName);
-// console.log(lastName);
-// console.log(age);
-// console.log(job);
+console.log(firstName);
+console.log(lastName);
+console.log(age);
+console.log(job);
 
 
 
