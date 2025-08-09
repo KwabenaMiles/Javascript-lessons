@@ -1,4 +1,0 @@
-Stay calm and slow down, don't just jump at a problem without a plan.
-Take a very logical and rational approach(programming is just logic, in the end...)
-Steps to Solve Any problem
-Make sure you 100% understand the problem. Ask the right questions to get a clear picture of the problem. Example: Project Manager. "We need a function that reverses whatever we pass into it". Response: What does "Whatever" mean in this context. Answer: Only strings, numbers and arrays make sense to reverse.

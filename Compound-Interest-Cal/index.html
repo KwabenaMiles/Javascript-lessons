@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1> Interest Calculator</h1>
+
+  <form id="compound-interest-form">
+    <label for="principal">Principal Amount:</label>
+    <input type="number" id="principal" name="principal" required>
+
+    <label for="rate">Annual Interest Rate (%):</label>
+    <input type="number" id="rate" name="rate" step="0.01" required>
+
+    <label for="time">Time (years):</label>
+    <input type="number" id="time" name="time" required>
+
+    <!-- <label for="compoundings">Compounding Frequency:</label>
+    <select id="compoundings" name="compoundings">
+      <option value="1">Annually</option>
+      <option value="4">Quarterly</option>
+      <option value="12">Monthly</option>
+      <option value="365">Daily</option>
+    </select> -->
+
+    <button onclick="calculate()" type="button">Calculate</button>
+
+    <p id="total">Total: <span id="total-Amount"> $0.00</span> </p>
+  </form>
+
+  <script src="compound-Interest-Cal.js"></script>
+</body>
+</html>
