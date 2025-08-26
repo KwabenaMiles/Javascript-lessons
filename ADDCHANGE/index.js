@@ -1,0 +1,15 @@
+/*
+====================
+STEP 1 CREATE THE ELEMENT
+
+
+STEP 2 ADD ATTRIBUTES/PROPETIES
+
+STEP 3 APPEND ELEMENT TO DOM
+
+
+REMOVE HTML ELEMENT
+
+====================
+
+*/
