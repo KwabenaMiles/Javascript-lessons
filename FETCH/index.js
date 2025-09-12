@@ -1,0 +1,15 @@
+/*
+======FETCH======
+Fetch = function used for making HTTP requests to fetch resources.
+(JSON style data, images, files )
+Simplifies asynchronous data fetching in JavaScript and used for 
+interacting with APIs to retrieve and send 
+data asynchronously on the web.
+fetch(url, {options})
+*/
+
+fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+.then((response) => response.json())
+.then((data) => console.log(data))
+.catch((error) => console.error("Error:", error));
+

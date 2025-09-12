@@ -1,0 +1,35 @@
+[{
+  "name": "SpongeBob SquarePants",
+  "age": 20,
+  "isEmployed": true,
+  "occupation": "Fry Cook"
+},
+{
+  "name": "Patrick Star",
+  "age": 22,
+  "isEmployed": false,
+  "occupation": "Unemployed"
+},
+{
+  "name": "Squidward Tentacles",
+  "age": 30,
+  "isEmployed": false,
+  "occupation": "Unemployed"
+},
+{
+  "name": "Mr. Krabs",
+  "age": 45,
+  "isEmployed": true,
+  "occupation": "Restaurant Owner"
+},
+{
+  "name": "Sandy Cheeks",
+  "age": 28,
+  "isEmployed": false,
+  "occupation": "Scientist"
+},
+{
+  "name": "Plankton",
+  "age": 35,
+  "occupation": "Restaurateur"
+}]
