@@ -1,0 +1,24 @@
+.myButtons {
+  width: 100px;
+  height: 50px;
+  /* background-color: hsl(150, 50%, 30%); */
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* #myButton:hover {
+  background-color: hsl(150, 50%, 70%);
+} */
+
+.enabled {
+  background-color: hsl(46, 50%, 50%);
+  color: white;
+}
+
+.hover {
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+  font-weight: bold;
+}
