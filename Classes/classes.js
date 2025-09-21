@@ -10,7 +10,7 @@ class Product {
     this.name = name;
     this.price = price;
   }
-  display() {
+  display() { // Inside of a class you don't need to use the function keyword
     console.log(`${this.name} costs $${this.price}`);
   }
 }

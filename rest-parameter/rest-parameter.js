@@ -3,6 +3,63 @@
 //                  spread = expand an array in sperate
 //                  rest = bundles sperate elements into an array.
 
+function openFridge(...foods) {
+  console.log(...foods);
+}
+
+function getFood(...foods) {
+  return foods;
+}
+
+const food1 = "pizza";
+const food2 = "hamburger";
+const food3 = "pasta";
+const food4 = "Sushi";
+
+// openFridge(food1, food2, food3);
+const foods = getFood(food1, food2, food3, food4);
+
+console.log(foods);
+
+// Calculate Sum Function
+function sum(...numbers) {
+  let result = 0;
+  for (let number of numnbers) {
+    result += number;
+  }
+
+  return result;
+}
+
+const total1 = sum(2, 6);
+
+console.log(`Your total is $${total1}`);
+
+// Calculate Average Number function 
+function getAverage(...numbers){
+  let result = 0;
+  for(let number of numbers){
+     result += number;
+  }
+
+  return result / numbers.length;
+}
+
+const total = getAverage(87, 56, 29, 89, 72, 53, 60, 50);
+
+console.log(total);
+
+
+// Combining Strings Into One.
+function combineStrings(...strings){
+  return strings.join(" ")
+}
+
+const fullName = combineStrings("Mr.", "Gideon", "Miles", "III");
+
+console.log(fullName);
+
+
 // 1. Sum all numbers
 function sumAll(...numbers) {
   return numbers.reduce((a, b) => a + b, 0);

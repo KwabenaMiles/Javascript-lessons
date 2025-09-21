@@ -2,7 +2,7 @@
 //                to another function.
 //              Used to handle asynchronous operations.
 //               1. Reading a file
-//               2. Netword Requests
+//               2. Network Requests
 //               3. Intereacting with databases
 
 
